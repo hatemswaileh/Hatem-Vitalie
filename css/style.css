@@ -1,2 +1,77 @@
 body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: whitesmoke;
+}
+h1,
+h2{
+color: rgba(32, 31, 31, 0.815);
+text-align: center;
+}
+#navbar{
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color:#3d3d3d;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+#navbar a{
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(247, 236, 220);
+}
+#welcome-section{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    height: 80vh;
+    color: rgba(165, 42, 42, 0.411);
+    padding-top: 20vh;
+}
+#project{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 2px solid rgba(255, 0, 0, 0.288);
+    border-radius: 15px;
+    background-color: rgba(243, 247, 220, 0.726);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-tile{
+    background-color: violet;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid  rgba(255, 0, 0, 0.288);
+    margin-bottom: 15px;
+}
+.project-tile img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer {
+    height: 100px;
+    background-color: gray;
+    text-align: center;
+    padding-top: 20px;
+}
+.github {
+    max-width: 25%;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #welcome-section {
+        height: 100px;
+    }
 }
